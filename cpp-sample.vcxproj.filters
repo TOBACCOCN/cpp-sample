@@ -39,12 +39,33 @@
     <ClCompile Include="template.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="string.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="vector.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="deque.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="map.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="call_c.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="third.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="person.h">
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="person.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="call_c.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

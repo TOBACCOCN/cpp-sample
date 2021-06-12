@@ -202,19 +202,19 @@ namespace temp {
 	}
 }
 
-int main() {
-	//temp::test01();
-	//temp::test02();
-	//temp::test03();
-	//temp::test04();
-	//temp::test05();
-	//temp::test06();
-	//temp::test07();
-	//temp::test08();
-	//temp::test09();
-	//temp::test10();
-	//temp::test11();
-	temp::test12();
-	system("pause");
-	return 0;
-}
+//int main() {
+//	//temp::test01();
+//	//temp::test02();
+//	//temp::test03();
+//	//temp::test04();
+//	//temp::test05();
+//	//temp::test06();
+//	//temp::test07();
+//	//temp::test08();
+//	//temp::test09();
+//	//temp::test10();
+//	//temp::test11();
+//	temp::test12();
+//	system("pause");
+//	return 0;
+//}

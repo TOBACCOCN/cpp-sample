@@ -142,13 +142,20 @@
     <ClCompile Include="address_book.cpp" />
     <ClCompile Include="constructor.cpp" />
     <ClCompile Include="copy_constructor.cpp" />
+    <ClCompile Include="deque.cpp" />
     <ClCompile Include="extend.cpp" />
     <ClCompile Include="friend.cpp" />
+    <ClCompile Include="map.cpp" />
     <ClCompile Include="operator_override.cpp" />
     <ClCompile Include="person.cpp" />
+    <ClCompile Include="string.cpp" />
     <ClCompile Include="template.cpp" />
+    <ClCompile Include="third.c" />
+    <ClCompile Include="vector.cpp" />
+    <ClCompile Include="call_c.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="call_c.h" />
     <ClInclude Include="person.h" />
     <ClInclude Include="person.hpp" />
   </ItemGroup>
