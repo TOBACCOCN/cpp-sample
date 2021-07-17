@@ -1,4 +1,5 @@
 #include <iostream>
+#include <string.h>
 #include "call_c.h"			// function1
 
 using namespace std;

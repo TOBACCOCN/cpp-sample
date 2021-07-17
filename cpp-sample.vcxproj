@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|Win32">
@@ -145,9 +145,10 @@
     <ClCompile Include="deque.cpp" />
     <ClCompile Include="extend.cpp" />
     <ClCompile Include="friend.cpp" />
-    <ClCompile Include="map.cpp" />
     <ClCompile Include="operator_override.cpp" />
     <ClCompile Include="person.cpp" />
+    <ClCompile Include="socket_client.c" />
+    <ClCompile Include="socket_server.c" />
     <ClCompile Include="string.cpp" />
     <ClCompile Include="template.cpp" />
     <ClCompile Include="third.c" />

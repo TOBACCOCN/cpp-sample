@@ -48,13 +48,16 @@
     <ClCompile Include="deque.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="map.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
     <ClCompile Include="call_c.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="third.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="socket_client.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="socket_server.c">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
