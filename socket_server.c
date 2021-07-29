@@ -2,9 +2,10 @@
 #include <stdlib.h>
 #include <errno.h>
 #include <string.h>
-#include <sys/types.h>
 #include <netinet/in.h>
+#include <arpa/inet.h>
 #include <sys/socket.h>
+#include <sys/types.h>
 #include <sys/wait.h>
 
 #define PORT            1500            // 端口号
@@ -51,10 +52,9 @@ int main() {
 		}
 		else {
 			recv(accept_fd, buf, BUF_LENGTH, 0);
-			// printf("received: %s, remote_ip: %s, remote_port: %d\n", buf, inet_ntoa(client_addr.sin_addr), ntohs(client_addr.sin_port));
-			printf("received: %s, remote_ip: %s, remote_port: %d\n", buf, "unknown", ntohs(client_addr.sin_port));
+			printf("received: %s, remote_ip: %s, remote_port: %d\n", buf, inet_ntoa(client_addr.sin_addr), ntohs(client_addr.sin_port));
 			// 发送内容，参数分别是连接句柄，内容，大小，其他信息（设为 0 即可）
-			sprintf(response, "Hi, I'm socket server, timestamp: %d", time(NULL));
+			sprintf(response, "Hi, I'm socket server, timestamp: %d\n", time(NULL));
 			send(accept_fd, response, strlen(response), 0);
 			printf("sending: %s\n", response);
 		}
