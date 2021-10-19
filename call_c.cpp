@@ -15,8 +15,8 @@ void testCallC() {
 	cout << endl;
 }
 
-int main() {
-	testCallC();
-	system("pause");
-	return 0;
-}
+//int main() {
+//	testCallC();
+//	system("pause");
+//	return 0;
+//}

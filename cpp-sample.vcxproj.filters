@@ -60,6 +60,9 @@
     <ClCompile Include="socket_server.c">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="macro.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="person.h">
