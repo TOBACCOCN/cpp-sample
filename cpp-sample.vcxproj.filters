@@ -63,6 +63,12 @@
     <ClCompile Include="macro.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="sudoku.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="cart.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="person.h">

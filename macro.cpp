@@ -44,13 +44,22 @@ namespace macro {
 	}
 }
 
-int main() {
-	macro::test01();
-	macro::test02();
-	macro::test03();
-	macro::test04();
-	macro::test05();
-	macro::test06();
-	system("pause");
-	return 0;
-}
+//int main() {
+//	//macro::test01();
+//	//macro::test02();
+//	//macro::test03();
+//	//macro::test04();
+//	//macro::test05();
+//	//macro::test06();
+//
+//	short a[2][4];
+//	for (int i = 0; i < sizeof(a) / sizeof(a[0]); ++i) {
+//		cout << a[i] << endl;
+//		for (int j = 0; j < sizeof(a[0]) / sizeof(short); ++j) {
+//			cout << &a[i][j] << endl;
+//		}
+//	}
+//
+//	system("pause");
+//	return 0;
+//}

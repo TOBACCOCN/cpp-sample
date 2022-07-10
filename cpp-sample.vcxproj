@@ -140,6 +140,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="address_book.cpp" />
+    <ClCompile Include="cart.cpp" />
     <ClCompile Include="constructor.cpp" />
     <ClCompile Include="copy_constructor.cpp" />
     <ClCompile Include="deque.cpp" />
@@ -151,6 +152,7 @@
     <ClCompile Include="socket_client.c" />
     <ClCompile Include="socket_server.c" />
     <ClCompile Include="string.cpp" />
+    <ClCompile Include="sudoku.cpp" />
     <ClCompile Include="template.cpp" />
     <ClCompile Include="third.c" />
     <ClCompile Include="vector.cpp" />
